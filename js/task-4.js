@@ -31,6 +31,7 @@ function getShippingCost(country) {
 
     return `Shipping to ${formattedCountry} will cost ${price} credits`;
   } else {
-    return 'Country not available';
+    return 'Sorry, there is no delivery to your country';
   }
 }
+
